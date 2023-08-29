@@ -49,7 +49,7 @@ import webbrowser
 
 # Declare Variables
 url = "https://docs.python.org/3/library/functions.html"
-number_list = [1, 2, 3, 4, 5]
+number_list = [2, 3, 4, 5, 6]
 
 # Use built-in functions like len(), min(), max()
 length = len(number_list)
@@ -68,10 +68,10 @@ logger.info(f"max(number_list) = {largest}")
 print()
 
 # Greet the user
-print("Greetings!")
+print("Hello There!")
 
 # Get the user's name and greet them
-name = input("What's your name? (type your name and hit enter): ")
+name = input("What's your name? (Julia Fangman): ")
 message = f"Hello {name.capitalize()}!"
 print(message)
 print()
